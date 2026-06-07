@@ -1,21 +1,72 @@
 # Project 4: Interactive Sales Performance Dashboard (Power BI)
 
 ## Project Overview
-This project transforms a cleaned sales dataset into an interactive Business Intelligence (BI) dashboard. The dashboard visualizes Key Performance Indicators (KPIs) and operational metrics to assist stakeholders in tracking monthly sales trends and performance.
+This project transforms a cleaned sales dataset into an interactive Business Intelligence (BI) dashboard. The dashboard is designed to visualize key performance indicators (KPIs), sales trends, and operational metrics to help stakeholders monitor business performance and make data-driven decisions.
 
-## Tech Stack & Files
-- **Tool:** Power BI Desktop
-- **Referenced File:** `Project2.pbix`
+## Objectives
+- Convert cleaned data into interactive visual insights
+- Track business KPIs in real time
+- Identify sales trends and seasonal patterns
+- Analyze product, payment, and channel performance
+- Enable interactive filtering for dynamic analysis
 
-## Key Dashboard Visuals & Insights
-1. **Key Performance Indicators (KPIs):** High-level dynamic cards displaying Total Revenue, Total Quantity Sold, Average Order Value (AOV), and Total Order Count.
-2. **Sales Trend Analysis:** Line and bar charts mapping out month-over-month revenue growth and identifying peak purchasing seasons.
-3. **Product & Channel Breakdown:**
-   - Identification of top-performing products by both revenue and volume.
-   - Distribution of orders across different `PaymentMethod` categories (e.g., Credit Card, Debit Card).
-   - Analysis of the most profitable marketing channels using the `ReferralSource` metric.
-4. **Interactive Filtering:** Slicers enabling users to filter the entire dashboard by order status (Shipped, Delivered, Cancelled) and custom date ranges.
+## Tech Stack & Tools
+- Power BI Desktop
+- Power Query (Data Transformation)
+- DAX (Data Analysis Expressions)
+- Data Visualization
 
-## How to Run
-1. Ensure you have **Power BI Desktop** installed on your system.
-2. Open the file `Project2.pbix` to view and interact with the live dashboard filters.
+## Dataset Information
+- File Name: `Project2.pbix`
+- Source: Cleaned Sales Dataset
+- Data Model: Star/Snowflake style (if applicable)
+
+## Key Dashboard Components
+
+### 1. KPI Cards
+- Total Revenue
+- Total Quantity Sold
+- Average Order Value (AOV)
+- Total Orders
+
+### 2. Sales Trend Analysis
+- Month-over-Month revenue trends
+- Peak sales periods identification
+- Seasonal performance patterns
+
+### 3. Product & Business Performance
+- Top-performing products by revenue and quantity
+- Category-wise or product-wise contribution analysis
+- Profit/revenue concentration insights
+
+### 4. Channel & Payment Analysis
+- Payment method distribution (Credit Card, Debit Card, etc.)
+- Referral source performance analysis
+- Conversion contribution by channel
+
+### 5. Interactive Filters (Slicers)
+- Order Status (Shipped, Delivered, Cancelled)
+- Date range filtering
+- Product/category-level filtering
+
+## Key Insights
+- Revenue trends highlight peak sales periods
+- A small set of products contributes major revenue share
+- Certain payment methods dominate transaction volume
+- Referral channels significantly impact conversions
+
+## How to Use
+1. Install **Power BI Desktop**
+2. Open `Project2.pbix`
+3. Navigate through report pages
+4. Use slicers to filter data dynamically
+5. Analyze KPIs and trends from visuals
+
+## Outcome
+This dashboard enables real-time business monitoring and supports data-driven decision-making through clear visualization of sales performance metrics.
+
+## Author
+Ansh Pandey
+
+## Project Type
+Business Intelligence Dashboard (Power BI – Sales Analytics)
