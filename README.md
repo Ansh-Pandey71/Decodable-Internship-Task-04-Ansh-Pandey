@@ -1,4 +1,4 @@
-# Project 2: Interactive Sales Performance Dashboard (Power BI)
+# Project 4: Interactive Sales Performance Dashboard (Power BI)
 
 ## Project Overview
 This project transforms a cleaned sales dataset into an interactive Business Intelligence (BI) dashboard. The dashboard visualizes Key Performance Indicators (KPIs) and operational metrics to assist stakeholders in tracking monthly sales trends and performance.
